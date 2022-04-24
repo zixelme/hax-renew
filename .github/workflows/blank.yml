@@ -12,8 +12,8 @@ jobs:
       - name: 'Renewing Hax VPS ....' 
         shell: cmd
         env:
-          SECRET_USERNAME: ${{ secrets.USERNAME }}
-          SECRET_PASSWORD: ${{ secrets.PASSWORD }}
+          SECRET_USERNAME: "5344302244"
+          SECRET_PASSWORD: "131313Aa"
         run: |
          curl -sSL -O https://github.com/CoiaPrant/Hax_extend/raw/main/HaxAutoReNew.exe
          HaxAutoReNew.exe -user "%SECRET_USERNAME%" -password "%SECRET_PASSWORD%"
